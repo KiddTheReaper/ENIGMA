@@ -21,7 +21,7 @@ class EnigmaGUI(QMainWindow):
         self.setFixedSize(1000, 600)
         self.font_family = self.load_regular_font()
         QApplication.setFont(QFont(self.font_family, 12))
-
+    
         self.shared_url = ""
         
         self.logo_label = QLabel()
@@ -142,7 +142,6 @@ class SubdomainTab(QWidget):
         layout = QVBoxLayout()
         self.setFont(QApplication.font())
 
-        # Input target
         h_input = QHBoxLayout()
         h_input.addWidget(QLabel("Target URL:"))
         self.url_input = QLineEdit()
@@ -150,7 +149,6 @@ class SubdomainTab(QWidget):
         h_input.addWidget(self.url_input)
         layout.addLayout(h_input)
 
-        # Tombol aksi
         btn_layout = QHBoxLayout()
         self.btn_all = QPushButton("Enumerate Target")
         self.btn_all.clicked.connect(self.run_all_enum)
@@ -162,13 +160,11 @@ class SubdomainTab(QWidget):
 
         layout.addLayout(btn_layout)
 
-        # Console Output
         self.console = QTextEdit()
         self.console.setReadOnly(True)
         layout.addWidget(self.console)
         self.setLayout(layout)
 
-        # Welcome Message
         self.console.append("Welcome to the Enumeration Module.\n")
         self.console.append(
             "Enumeration is the first and most critical phase of reconnaissance in any security assessment.\n"
@@ -276,7 +272,6 @@ class SubdomainTab(QWidget):
         cmd = f"cat {infile} | httpx -silent -threads 100 -timeout 5 -no-color -o {outfile}"
         self._execute(cmd)
 
-        # Jalankan subjack dan subzy setelah delay
         QTimer.singleShot(1500, lambda: self.run_tool('subjack'))
         QTimer.singleShot(3000, lambda: self.run_tool('subzy'))
 
@@ -948,11 +943,10 @@ class SettingsTab(QWidget):
     def get_app_info(self):
         info = []
         info.append("Developed by @KiddTheReaper")
-        info.append("Version: 1.0 ALPHA(unstable)")
+        info.append("Version: 1.0")
         info.append("Telegram: @KiddTheReaper")
         info.append("TikTok: @justan0therloser")
-        info.append("Note: THIS IS AN ALPHA VERSION. THE FULL VERSION WILL BE RELEASED SOON")
-        info.append("Use this tool at your own risk. The developer is not responsible for any illegal activities.")
+        info.append("Note: Use this tool at your own risk. The developer is not responsible for any illegal activities.")
         return "\n".join(info)
 
     def scroll_marquee(self):
