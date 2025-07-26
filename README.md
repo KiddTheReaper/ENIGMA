@@ -49,7 +49,7 @@ QWidget {
 Your changes will take effect instantly after switching themes from the Settings tab in the GUI.
 Installation
 
-**ENIGMA** has been tested and works well on:
+## Tested on
 
 - **Kali Linux**
 - **Arch Linux**
