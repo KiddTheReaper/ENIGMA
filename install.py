@@ -96,7 +96,7 @@ def main():
     os_type = ask_distro()
 
     if os_type == "arch":
-        install_pip_package("PyQt5", version="5.15.11")
+        install_pip_package("PyQt5", version="5.13.0")
     else:
         install_package("python3-pyqt5", os_type)
         install_pip_package("PyQt5")
