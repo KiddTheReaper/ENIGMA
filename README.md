@@ -40,5 +40,5 @@ ENIGMA has been tested and works well on:
 We provide an installer script that handles installation of dependencies, Go tools, and Python packages, adjusting automatically for Kali (Debian/Ubuntu) and Arch Linux.
 
 ```bash
-chmod +x install_enigma.py
-python3 install_enigma.py
+chmod +x install.py
+python3 install.py
