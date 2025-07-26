@@ -61,7 +61,7 @@ Installation
 
 ## Installation Script
 
-We provide an automatic installer script to simplify setup. It detects your OS and installs the required dependencies, Go tools, and Python packages.
+Select your OS and installs the required dependencies, Go tools, and Python packages.
 ```
 chmod +x install.py
 python3 install.py
