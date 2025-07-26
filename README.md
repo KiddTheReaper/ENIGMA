@@ -10,7 +10,6 @@
 
 - **Multi-tool integration:**  
   Subfinder, Assetfinder, Subjack, Subzy, Httpx, Katana, Waybackurls, Okadminfinder, SSLScan, Whois, and more.
-  
 - **Tabbed Interface:**  
   - **Enumeration**  
   - **Information**  
@@ -19,7 +18,6 @@
   - **SSL/TLS**  
   - **Output Viewer**  
   - **Settings** (Theme selection and Information)
-
 - **Light and Dark Themes for comfortable use.**
 - **Real-time output viewing and management.**
 - **Customizable Theme**
