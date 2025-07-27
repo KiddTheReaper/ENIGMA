@@ -1,4 +1,4 @@
-# ENIGMA
+# ENIGMA - Pre-Automatic Reconnaissance Tools
 
 ![ENIGMA Logo](./assets/logo.png)
 
@@ -45,7 +45,6 @@ QWidget {
 }
 ```
 Your changes will take effect instantly after switching themes from the Settings tab in the GUI.
-Installation
 
 ## Tested on
 
@@ -55,14 +54,22 @@ Installation
 ## Dependencies
 
 - **Python 3.8+**
-- **PyQt5 (recommended version: 5.13.0 for Arch Linux via pip)**
-- **Golang (for Go-based tools)**
+- **PyQt5**
+- **Golang/Go**
 - **System tools: git, curl, whois, sslscan, etc.**
 
-## Installation Script
+## Installation
 
 Select your OS and installs the required dependencies, Go tools, and Python packages.
 ```
 chmod +x install.py
 python3 install.py
 ```
+## Documentation
+
+- **Arch (Dark Theme)**
+  
+![Arch](https://i.imgur.com/Wj62OUu.png)
+- **Kali (Light Theme)**
+  
+![Kali](https://i.imgur.com/J1XxHqG.png)
