@@ -73,3 +73,8 @@ python3 install.py
 - **Kali (Light Theme)**
   
 ![Kali](https://i.imgur.com/J1XxHqG.png)
+
+## Connect with Me
+
+I'm an active developer who enjoys building tools and sharing knowledge. You can reach me through:
+<p align="left"> <a href="https://github.com/KiddTheReaper" target="_blank"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> </a> <a href="https://t.me/KiddTheReaper" target="_blank"> <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/> </a> <a href="https://www.tiktok.com/@justan0therloser" target="_blank"> <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/> </a> <a href="mailto:captainkidd@tutamail.com" target="_blank"> <img src="https://img.shields.io/badge/Email-8A2BE2?style=for-the-badge&logo=minutemailer&logoColor=white"/> </a> </p> 
