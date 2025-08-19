@@ -50,6 +50,7 @@ Your changes will take effect instantly after switching themes from the Settings
 
 - **Kali Linux**
 - **Arch Linux**
+- **Windows 10**
 
 ## Dependencies
 
