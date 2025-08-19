@@ -73,6 +73,9 @@ python3 install.py
 - **Kali (Light Theme)**
   
 ![Kali](https://i.imgur.com/J1XxHqG.png)
+- **Windows 10 (Dark Theme)**
+
+![Windows 10](https://i.imgur.com/Kcal3io.png)
 
 ## Connect with Me
 
