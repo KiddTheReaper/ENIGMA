@@ -76,6 +76,10 @@ python3 install.py
 
 ![Windows 10](https://i.imgur.com/Kcal3io.png)
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details
+
 ## Connect with Me
 
 I'm an active developer who enjoys building tools and sharing knowledge. You can reach me through:
