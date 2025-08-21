@@ -1,5 +1,3 @@
-# ENIGMA - Pre-Automatic Reconnaissance Tools
-
 ![ENIGMA Logo](./assets/logo.png)
 
 ## Overview
