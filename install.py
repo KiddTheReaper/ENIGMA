@@ -1,7 +1,29 @@
 #!/usr/bin/env python3
-import os
-import sys
 import subprocess
+import sys
+
+# ------------------------------
+# Install essential Python packages first
+# ------------------------------
+def ensure_package(package, version=None):
+    try:
+        import importlib
+        importlib.import_module(package)
+    except ImportError:
+        pkg = f"{package}=={version}" if version else package
+        print(f"[*] Installing missing package: {pkg}")
+        subprocess.run([sys.executable, "-m", "pip", "install", pkg], check=True)
+
+# colorama is not built-in, ensure installed
+ensure_package("colorama")
+
+# any other external Python packages your script needs
+ensure_package("psutil")
+ensure_package("okadminfinder")
+ensure_package("openai")
+
+# Now import the packages safely
+import os
 import platform
 from shutil import which
 from colorama import init, Fore, Style
@@ -21,7 +43,6 @@ ASCII = r"""
 """
 
 SUPPORTED_OS = ["arch", "debian", "ubuntu", "windows"]
-
 
 # ------------------------------
 # Utility functions
